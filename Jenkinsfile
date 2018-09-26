@@ -9,8 +9,9 @@ pipeline {
   stages {
     stage('execute') {
       steps {
-        sh '''sudo rm -rf /var/lib/apt/lists/*
-sudo apt-get install golang-1.10'''
+        sh '''
+         sudo apt-get install golang-1.10
+         '''
       }
     }
   }
