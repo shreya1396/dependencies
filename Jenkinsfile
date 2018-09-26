@@ -10,7 +10,7 @@ pipeline {
     stage('execute') {
       steps {
         sh '''
-         sudo apt-get install golang-1.10
+         echo 'The job is executing'
          '''
       }
     }
