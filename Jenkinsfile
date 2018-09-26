@@ -1,4 +1,4 @@
-@Library('jenkins-shared-library@branch1') _
+@Library('example-library@branch1') _
 pipeline {
   branch = 'branch1'
   agent any
